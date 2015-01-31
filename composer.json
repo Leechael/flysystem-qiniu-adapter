@@ -1,0 +1,33 @@
+{
+    "name": "leechael/flysystem-qiniu-adapter",
+    "description": "Flysystem adapter for Qiniu Cloud Storage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leechael Yim",
+            "email": "yanleech@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/flysystem": "~1.0",
+        "qiniu/php-sdk": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leechael\\Flysystem\\Qiniu\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
