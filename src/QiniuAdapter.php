@@ -1,4 +1,4 @@
-<?php namespace Checksnug\Upload\Adapter;
+<?php namespace Leechael\Flysystem\Qiniu;
 
 use League\Flysystem\Util;
 use League\Flysystem\Config;
